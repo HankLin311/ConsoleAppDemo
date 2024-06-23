@@ -1,6 +1,6 @@
 ﻿using ConsoleAppDevTools.StepManager;
 
-await StepManager.Run(async () =>
+await StepManager.RunAsync(async () =>
 {
     string input = "進行腳本";
 

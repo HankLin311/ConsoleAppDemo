@@ -12,7 +12,7 @@ namespace ConsoleAppDevTools.StepManager
         /// <summary>
         /// Run: 應用程式框架 (非同步)
         /// </summary>
-        public static async Task Run(Func<Task> func)
+        public static async Task RunAsync(Func<Task> func)
         {
             DateTime startTime = DateTime.Now;
             try
@@ -90,7 +90,7 @@ namespace ConsoleAppDevTools.StepManager
         }
 
         /// <summary>
-        /// Run: 應用程式框架 (非同步)
+        /// Run: 應用程式框架 (同步)
         /// </summary>
         public static void Run(Action func)
         {
